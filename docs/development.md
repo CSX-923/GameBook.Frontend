@@ -10,7 +10,7 @@ pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-The app runs at `http://localhost:3000`. The public catalog needs IGDB/Twitch application credentials. Authenticated flows also need the AuthUser and Game services; run them in their sibling repositories or use the local integration Compose described in [GameBook.System](https://github.com/CarlosSV923/GameBook.System).
+The app runs at `http://localhost:3000`. The public catalog needs IGDB/Twitch application credentials. Authenticated flows also need the AuthUser and Game services; run them in their sibling repositories or use the local integration Compose described in [GameBook.System](https://github.com/CSX-923/GameBook.System).
 
 ## Environment variables
 
@@ -54,4 +54,4 @@ Vercel deploys the frontend from `main` at [gamebook-frontend.vercel.app](https:
 
 ## Docker
 
-This repository contains a production `Dockerfile`; it does not contain a Compose file. The local multi-repository Compose setup and instructions are maintained in [GameBook.System](https://github.com/CarlosSV923/GameBook.System).
+This repository contains a production `Dockerfile`; it does not contain a Compose file. The local multi-repository Compose setup and instructions are maintained in [GameBook.System](https://github.com/CSX-923/GameBook.System).

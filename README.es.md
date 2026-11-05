@@ -2,7 +2,7 @@
 
 [English](README.md) · **Estado: activo — última versión v0.12.0**
 
-[![CI](https://github.com/CarlosSV923/GameBook.Frontend/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CarlosSV923/GameBook.Frontend/actions/workflows/ci.yml)
+[![CI](https://github.com/CSX-923/GameBook.Frontend/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CSX-923/GameBook.Frontend/actions/workflows/ci.yml)
 
 ![Una persona recorre el catálogo, abre un juego, inicia sesión y lo guarda en favoritos](docs/screenshots/en/main-flow.gif)
 
@@ -18,7 +18,7 @@ GameBook.Frontend es la aplicación Next.js para consultar información de video
 
 ## Demo y documentación de API
 
-**Aplicación:** [gamebook-frontend.vercel.app](https://gamebook-frontend.vercel.app) (Vercel, `main`). La aplicación usa [AuthUser](https://github.com/CarlosSV923/GameBook.Microservice.AuthUser) y [Game](https://github.com/CarlosSV923/GameBook.Microservice.Game); sus interfaces Swagger están en [AuthUser /docs](https://gamebook-microservice-authuser.onrender.com/docs) y [Game /docs](https://gamebook-microservice-game.onrender.com/docs). Ambos backends usan el nivel gratuito de Render, así que la primera solicitud puede tardar; la aplicación muestra un aviso de calentamiento.
+**Aplicación:** [gamebook-frontend.vercel.app](https://gamebook-frontend.vercel.app) (Vercel, `main`). La aplicación usa [AuthUser](https://github.com/CSX-923/GameBook.Microservice.AuthUser) y [Game](https://github.com/CSX-923/GameBook.Microservice.Game); sus interfaces Swagger están en [AuthUser /docs](https://gamebook-microservice-authuser.onrender.com/docs) y [Game /docs](https://gamebook-microservice-game.onrender.com/docs). Ambos backends usan el nivel gratuito de Render, así que la primera solicitud puede tardar; la aplicación muestra un aviso de calentamiento.
 
 ## Capturas
 
@@ -48,11 +48,11 @@ La aplicación inicia en `http://localhost:3000`. Ejecuta las pruebas unitarias 
 
 La interfaz del navegador se organiza por funcionalidades. Las rutas de servidor de Next.js consultan IGDB con credenciales Twitch exclusivas del servidor; TanStack Query administra el estado de servidor del cliente y los clientes del navegador llaman a AuthUser y Game para cuentas y favoritos.
 
-[![Arquitectura de GameBook.Frontend](architecture/GameBook.Frontend-architecture-es.svg)](https://carlossv923.github.io/GameBook.Frontend/GameBook.Frontend-architecture-es.html)
+[![Arquitectura de GameBook.Frontend](architecture/GameBook.Frontend-architecture-es.svg)](https://csx-923.github.io/GameBook.Frontend/GameBook.Frontend-architecture-es.html)
 
-[![Secuencia del catálogo público: render en servidor, hidratación y paginación](architecture/GameBook.Frontend-sequence-es.svg)](https://carlossv923.github.io/GameBook.Frontend/GameBook.Frontend-sequence-es.html)
+[![Secuencia del catálogo público: render en servidor, hidratación y paginación](architecture/GameBook.Frontend-sequence-es.svg)](https://csx-923.github.io/GameBook.Frontend/GameBook.Frontend-sequence-es.html)
 
-Haz clic en un diagrama para abrir su versión interactiva o consulta el [índice de diagramas](https://carlossv923.github.io/GameBook.Frontend/).
+Haz clic en un diagrama para abrir su versión interactiva o consulta el [índice de diagramas](https://csx-923.github.io/GameBook.Frontend/).
 
 ## Tecnologías y decisiones
 
@@ -67,8 +67,8 @@ Haz clic en un diagrama para abrir su versión interactiva o consulta el [índic
 
 ## Proyectos relacionados
 
-- [GameBook.System](https://github.com/CarlosSV923/GameBook.System) — documentación del sistema y Compose de integración local.
-- [GameBook.Microservice.AuthUser](https://github.com/CarlosSV923/GameBook.Microservice.AuthUser) — cuentas, autenticación y sesiones.
-- [GameBook.Microservice.Game](https://github.com/CarlosSV923/GameBook.Microservice.Game) — favoritos de usuario e instantáneas de juegos.
+- [GameBook.System](https://github.com/CSX-923/GameBook.System) — documentación del sistema y Compose de integración local.
+- [GameBook.Microservice.AuthUser](https://github.com/CSX-923/GameBook.Microservice.AuthUser) — cuentas, autenticación y sesiones.
+- [GameBook.Microservice.Game](https://github.com/CSX-923/GameBook.Microservice.Game) — favoritos de usuario e instantáneas de juegos.
 
 Licencia [MIT](LICENSE) · © Carlos Sesme Vera.
