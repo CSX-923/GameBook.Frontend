@@ -50,7 +50,7 @@ El workflow release-please se ejecuta al recibir cambios en `main` y mediante ej
 
 Los PR de funcionalidad hacia `develop` se fusionan con «Rebase and merge» para que release-please incluya cada cambio una sola vez. Los PR de promoción (`develop` → `main`) y sincronización (`main` → `develop`) se fusionan con un merge commit. Después de cada release, el workflow abre un PR de sincronización `main` → `develop` si no hay uno abierto.
 
-Vercel despliega el frontend desde `main` en [gamebook-frontend.vercel.app](https://gamebook-frontend.vercel.app). Configura `NEXT_PUBLIC_AUTHUSER_URL`, `NEXT_PUBLIC_GAME_URL`, `IGDB_CLIENT_ID` e `IGDB_CLIENT_SECRET` en el proyecto de Vercel. `vercel.json` habilita despliegues Git solo para `main`. Los servicios backend se despliegan de forma independiente en Render; este repositorio no configura despliegues preview para backends.
+Vercel despliega el frontend desde `main` en [gamebook-system.vercel.app](https://gamebook-system.vercel.app). Configura `NEXT_PUBLIC_AUTHUSER_URL`, `NEXT_PUBLIC_GAME_URL`, `IGDB_CLIENT_ID` e `IGDB_CLIENT_SECRET` en el proyecto de Vercel. `vercel.json` habilita despliegues Git solo para `main`. Los servicios backend se despliegan de forma independiente en Render; este repositorio no configura despliegues preview para backends.
 
 ## Docker
 
