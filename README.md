@@ -18,7 +18,7 @@ GameBook.Frontend is the Next.js application for browsing video game information
 
 ## Live demo and API docs
 
-**Live app:** [gamebook-frontend.vercel.app](https://gamebook-frontend.vercel.app) (Vercel, `main`). The app uses [AuthUser](https://github.com/CSX-923/GameBook.Microservice.AuthUser) and [Game](https://github.com/CSX-923/GameBook.Microservice.Game); their Swagger UIs are [AuthUser /docs](https://gamebook-microservice-authuser.onrender.com/docs) and [Game /docs](https://gamebook-microservice-game.onrender.com/docs). Both backends run on Render's free tier, so a first request may take a while; the app shows a warm-up notice.
+**Live app:** [gamebook-system.vercel.app](https://gamebook-system.vercel.app) (Vercel, `main`). The app uses [AuthUser](https://github.com/CSX-923/GameBook.Microservice.AuthUser) and [Game](https://github.com/CSX-923/GameBook.Microservice.Game); their Swagger UIs are [AuthUser /docs](https://gamebook-microservice-authuser.onrender.com/docs) and [Game /docs](https://gamebook-microservice-game.onrender.com/docs). Both backends run on Render's free tier, so a first request may take a while; the app shows a warm-up notice.
 
 ## Screenshots
 
