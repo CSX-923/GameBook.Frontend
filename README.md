@@ -2,7 +2,7 @@
 
 [Español](README.es.md) · **Status: active — latest release v0.12.0**
 
-[![CI](https://github.com/CarlosSV923/GameBook.Frontend/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CarlosSV923/GameBook.Frontend/actions/workflows/ci.yml)
+[![CI](https://github.com/CSX-923/GameBook.Frontend/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CSX-923/GameBook.Frontend/actions/workflows/ci.yml)
 
 ![A visitor browses the catalog, opens a game, signs in and saves it to favorites](docs/screenshots/en/main-flow.gif)
 
@@ -18,7 +18,7 @@ GameBook.Frontend is the Next.js application for browsing video game information
 
 ## Live demo and API docs
 
-**Live app:** [gamebook-frontend.vercel.app](https://gamebook-frontend.vercel.app) (Vercel, `main`). The app uses [AuthUser](https://github.com/CarlosSV923/GameBook.Microservice.AuthUser) and [Game](https://github.com/CarlosSV923/GameBook.Microservice.Game); their Swagger UIs are [AuthUser /docs](https://gamebook-microservice-authuser.onrender.com/docs) and [Game /docs](https://gamebook-microservice-game.onrender.com/docs). Both backends run on Render's free tier, so a first request may take a while; the app shows a warm-up notice.
+**Live app:** [gamebook-frontend.vercel.app](https://gamebook-frontend.vercel.app) (Vercel, `main`). The app uses [AuthUser](https://github.com/CSX-923/GameBook.Microservice.AuthUser) and [Game](https://github.com/CSX-923/GameBook.Microservice.Game); their Swagger UIs are [AuthUser /docs](https://gamebook-microservice-authuser.onrender.com/docs) and [Game /docs](https://gamebook-microservice-game.onrender.com/docs). Both backends run on Render's free tier, so a first request may take a while; the app shows a warm-up notice.
 
 ## Screenshots
 
@@ -50,11 +50,11 @@ The app starts at `http://localhost:3000`. Run unit tests with `pnpm test`. See 
 
 The browser UI is organized by feature. Next.js server routes fetch IGDB using server-only Twitch credentials; TanStack Query manages client server-state, while browser clients call AuthUser and Game for account and favorite operations.
 
-[![GameBook.Frontend architecture](architecture/GameBook.Frontend-architecture-en.svg)](https://carlossv923.github.io/GameBook.Frontend/GameBook.Frontend-architecture-en.html)
+[![GameBook.Frontend architecture](architecture/GameBook.Frontend-architecture-en.svg)](https://csx-923.github.io/GameBook.Frontend/GameBook.Frontend-architecture-en.html)
 
-[![Public catalog sequence: server render, hydration and pagination](architecture/GameBook.Frontend-sequence-en.svg)](https://carlossv923.github.io/GameBook.Frontend/GameBook.Frontend-sequence-en.html)
+[![Public catalog sequence: server render, hydration and pagination](architecture/GameBook.Frontend-sequence-en.svg)](https://csx-923.github.io/GameBook.Frontend/GameBook.Frontend-sequence-en.html)
 
-Click a diagram to open its interactive version, or browse the [diagram index](https://carlossv923.github.io/GameBook.Frontend/).
+Click a diagram to open its interactive version, or browse the [diagram index](https://csx-923.github.io/GameBook.Frontend/).
 
 ## Stack and decisions
 
@@ -69,8 +69,8 @@ Click a diagram to open its interactive version, or browse the [diagram index](h
 
 ## Related projects
 
-- [GameBook.System](https://github.com/CarlosSV923/GameBook.System) — system documentation and local integration Compose.
-- [GameBook.Microservice.AuthUser](https://github.com/CarlosSV923/GameBook.Microservice.AuthUser) — accounts, authentication and sessions.
-- [GameBook.Microservice.Game](https://github.com/CarlosSV923/GameBook.Microservice.Game) — user favorites and game snapshots.
+- [GameBook.System](https://github.com/CSX-923/GameBook.System) — system documentation and local integration Compose.
+- [GameBook.Microservice.AuthUser](https://github.com/CSX-923/GameBook.Microservice.AuthUser) — accounts, authentication and sessions.
+- [GameBook.Microservice.Game](https://github.com/CSX-923/GameBook.Microservice.Game) — user favorites and game snapshots.
 
 Licensed under the [MIT License](LICENSE) · © Carlos Sesme Vera.
